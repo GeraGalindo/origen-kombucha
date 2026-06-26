@@ -116,9 +116,9 @@ npx serve origen-kombucha -p 8080
 
 ## Contact
 
-- **Email**: info@origenkombucha.com
+- **Email**: info@origenkombucha.nl
 - **Instagram**: [@origen.kombucha](https://instagram.com/origen.kombucha)
-- **Website**: origenkombucha.com
+- **Website**: origenkombucha.nl
 - **Location**: Eindhoven, Netherlands
 
 ## Deployment
