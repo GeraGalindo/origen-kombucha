@@ -333,6 +333,31 @@ section {
 }
 
 /* Flavours Section */
+.flavours {
+  position: relative;
+  overflow: hidden;
+}
+
+.flavours-bg-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.08;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.flavours .container {
+  position: relative;
+  z-index: 2;
+}
+
 .flavours-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -537,6 +562,31 @@ section {
 }
 
 /* Benefits Section */
+.benefits {
+  position: relative;
+  overflow: hidden;
+}
+
+.benefits-bg-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.08;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.benefits .container {
+  position: relative;
+  z-index: 2;
+}
+
 .benefits-grid {
   display: grid;
   gap: var(--space-6);

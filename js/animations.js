@@ -32,8 +32,9 @@ export function initAnimations() {
           
           parallaxElements.forEach(el => {
             const speed = el.dataset.speed || 0.5;
-            const yPos = -(scrolled * speed);
-            el.style.transform = `translateY(${yPos}px)`;
+            const yPos = scrolled * speed;
+            // Preserve the centering transform while adding parallax effect
+            el.style.transform = `translate(-50%, calc(-50% + ${yPos}px))`;
           });
           
           ticking = false;
